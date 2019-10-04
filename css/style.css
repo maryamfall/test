@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* start style body */
+html, body {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  font-family: 'vazir';
+  font-size: 14px; }
+
+h1, h2, h3, h4, h5, h6,
+p,
+ul,
+ol {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  outline: none; }
+
+* {
+  box-sizing: border-box; }
+
+/* end style body */
+/*  start style wrapper */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 8px; }
+  .wrapper::after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* end style wrapper */
+/* start style font_face */
+/* end style font_face */
+/* start style container */
+.container::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* end style container */
+/* start style main_header */
+.main_header {
+  margin-bottom: 24px; }
+  .main_header .date_out {
+    background-color: #b30017; }
+  .main_header .date_header {
+    text-align: left;
+    padding: 2px 0;
+    margin-left: 52px; }
+    .main_header .date_header .date_global {
+      font-size: 12px;
+      color: #ffffff;
+      padding-left: 4px;
+      border-left: 2px solid #fff; }
+    .main_header .date_header .date_persian {
+      font-size: 12px;
+      color: #ffffff;
+      padding-right: 8px; }
+  .main_header .menu_header .main_menu {
+    display: none; }
+  .main_header .menu_header .icon_menu {
+    display: block; }
+  .main_header .socil_out_header {
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #ffffff; }
+  .main_header .contact_menu {
+    background-color: #ffffff; }
+    .main_header .contact_menu .tiny_menu {
+      list-style-type: none; }
+      .main_header .contact_menu .tiny_menu li {
+        display: inline-block; }
+        .main_header .contact_menu .tiny_menu li a {
+          padding: 6px 16px;
+          display: block;
+          text-decoration: none;
+          text-align: center;
+          color: #000000;
+          font-size: 12px; }
+          .main_header .contact_menu .tiny_menu li a:hover {
+            background-color: #eeeeee; }
+  .main_header .social_icon {
+    text-align: left;
+    margin-left: 0; }
+    .main_header .social_icon ul {
+      list-style-type: none; }
+      .main_header .social_icon ul li {
+        display: inline-block;
+        padding: 9px 8px; }
+        .main_header .social_icon ul li a {
+          text-decoration: none;
+          color: #000000;
+          transition: 2s; }
+          .main_header .social_icon ul li a:hover {
+            color: #b30017; }
+          .main_header .social_icon ul li a i {
+            font-size: 12px;
+            display: block; }
+  .main_header .logo_out {
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d9d9d9; }
+  .main_header .menu_header_out {
+    border-bottom: 1px solid #d9d9d9; }
+  .main_header .main_menu_header {
+    background-color: #ffffff;
+    list-style-type: none;
+    position: relative; }
+    .main_header .main_menu_header .item {
+      display: inline-block;
+      padding: 4px 12px; }
+      .main_header .main_menu_header .item:hover {
+        background-color: #eeeeee; }
+      .main_header .main_menu_header .item .item_tag, .main_header .main_menu_header .item .sub_menu li a, .main_header .main_menu_header .sub_menu li .item a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: #000000;
+        font-size: 14px; }
+    .main_header .main_menu_header .active {
+      color: #b10016; }
+    .main_header .main_menu_header .sub_menu {
+      list-style-type: none;
+      position: absolute;
+      top: 30px;
+      background-color: #eeeeee;
+      border-top: 1px solid #d9d9d9; }
+      .main_header .main_menu_header .sub_menu li {
+        display: block;
+        padding: 4px; }
+    .main_header .main_menu_header .sub_menu {
+      display: none; }
+    .main_header .main_menu_header .least_item:hover .sub_menu {
+      display: block; }
+  .main_header .search {
+    text-align: left; }
+    .main_header .search a {
+      font-size: 14px;
+      border-bottom: 1px solid #000000;
+      border-top: 1px solid #000000;
+      display: inline-block;
+      padding: 3px 2px; }
+      .main_header .search a:hover {
+        background-color: #b30017;
+        color: #fff; }
+  .main_header .icon_bar {
+    position: absolute;
+    right: 29px;
+    padding: 6px; }
+    .main_header .icon_bar a {
+      display: inline-block; }
+      .main_header .icon_bar a:hover {
+        color: #fff;
+        background-color: #b30017; }
+
+/* end style main_header */
+/* start style main */
+/* start style section_1 */
+.section_1 .column_1 {
+  padding-left: 24px; }
+  .section_1 .column_1 .second_news {
+    margin: 16px 0; }
+  .section_1 .column_1 .img_top_news .img {
+    display: block; }
+.section_1 .column_2 .section_indoor .article {
+  list-style-type: none; }
+  .section_1 .column_2 .section_indoor .article .article_list {
+    display: block; }
+    .section_1 .column_2 .section_indoor .article .article_list a {
+      display: block;
+      text-decoration: none; }
+  .section_1 .column_2 .section_indoor .article .first_article {
+    height: 360px; }
+.section_1 .column_2 .title_article {
+  margin-top: 16px; }
+
+/* end style section_1 */
+/* start style section_2 */
+.section_2 {
+  margin: 16px 0; }
+  .section_2 .column_video {
+    padding-left: 24px; }
+  .section_2 .column_videio_list .menu_video {
+    list-style-type: none; }
+    .section_2 .column_videio_list .menu_video .menu_list .video_tag {
+      display: block;
+      text-decoration: none; }
+
+/* end style section_2 */
+/* start style section_3 */
+.section_3 .podcast_part .menu_podcast {
+  list-style-type: none; }
+  .section_3 .podcast_part .menu_podcast .podcast_list a {
+    display: block;
+    text-decoration: none; }
+.section_3 .reportـimage {
+  padding: 0 16px; }
+.section_3 .cartoon .menu_cartoon {
+  list-style-type: none; }
+  .section_3 .cartoon .menu_cartoon .cartoon_list {
+    float: right;
+    width: 50%; }
+    .section_3 .cartoon .menu_cartoon .cartoon_list a {
+      display: block;
+      text-decoration: none; }
+
+/* end style section_3 */
+/* end style main */
+/* end style main_footer */
+/* end style main */
+.main_footer {
+  margin-top: 42px; }
+
+/* end style main_footer */
+
+/*# sourceMappingURL=style.css.map */

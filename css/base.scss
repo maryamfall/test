@@ -1,0 +1,291 @@
+.contact_menu {
+  width: 100%;
+  text-align: center;
+
+}
+.social_icon {
+  width: 100%;
+  text-align: center;
+}
+.social_footer {
+  width: 100%;
+}
+.column_video {
+  padding: 0;
+}
+
+/* start style interview */
+.interview_part {
+  margin-top: 16px;
+  .img {
+    width: 30%;
+    float: right;
+  }
+  .content {
+    width: 70%;
+    float: right;
+  }
+}
+/* end style interview */
+/* start style content_top_news */
+  .content_top_news {
+  h5 {
+    padding-top: 9px;
+  }
+} 
+/* end style content_top_news */
+/* start style selected_news */
+.selectedـnews_part {
+  .img {
+    width: 30%;
+    float: right;
+  }
+  .content {
+    width: 70%;
+    float: right;
+  }
+}
+/* end style selected_news*/
+.report_part {
+  .img {
+    width: 30%;
+    float: right;
+  }
+  .content {
+    width: 70%;
+    float: right;
+  } 
+} 
+/* start style item_column_2 */ 
+.second_article_img {
+    float: right;
+    width: 20%;
+}
+.second_article_content {
+    float: right;
+    width: 80%;
+}
+/* end style item_column_2 */ 
+/* start style header */ 
+/* start style menu_video */
+.video_part {
+  float: right;
+  width: 40%;
+}
+.content_video {
+  float: right;
+  width: 60%;
+}
+.icon_bar {
+  display: block;
+}
+/* end style menu_video */
+/* end style header */
+/* start style podcast */ 
+.podcast_list {
+  float: right;
+  width: 50%;
+  .icon_headset {
+    bottom: 63px;
+    right: 153px;
+  }
+}
+/* end style podcast */
+.slid_pre {
+  float: right;
+  width: 50%;
+} 
+.slid_nex {
+  float: right;
+  width: 50%;
+}
+/* start style report_imge */ 
+  .reportـimage {
+    padding: 16px 0;
+  img {
+    height: auto;
+  }
+}
+/* end style report_imge */ 
+/* start style cartoon */ 
+.cartoon_list {
+  float: right;
+  width: 50%;
+}
+.section_indoor_inner {
+  margin-top: 16px;
+}
+/* end style cartoon */
+.nav_footer {
+  width: 100%;
+}
+.logo_aasam {
+  width: 100%;
+}
+.social_footer {
+  text-align: center;
+  width: 100%;
+}
+.icon_footer {
+  width: 100%;
+  text-align: center;
+}
+.social_footer_out {
+  p {
+    text-align: center;
+  }
+}
+/* start style media(min-width:768px) */ 
+@media screen and (min-width:768px) {
+  .main_header {
+    .menu_header {
+      .main_menu {
+        display: block;
+        float: right;
+        width: 85%;
+      }
+      .search {
+        float: right;
+        width: 15%;
+      }
+      .icon_bar {
+        display: none;
+      }
+    }
+  }
+  .column_1 {
+    padding-left: 24px;
+    width: 60%;
+    float: right;
+    .img_top_news {
+      float: right;
+      width: 65%;
+    }
+    .content_top_news {
+      float: right;
+      width: 35%;
+      h5 {
+        padding-top: 0;
+      }
+    }
+    .writer_news_part {
+      padding-left: 6px;
+      float: right;
+      width: 50%;
+    }
+    .interview_part {
+      padding-right: 6px;
+      margin-top: 0;
+      float: right;
+      width: 50%;
+    }
+    .selectedـnews_part {
+      float: right;
+      width: 50%;
+    }
+    .report_part {
+      float: right;
+      width: 50%;
+    }
+    .selectedـnews_part {
+    padding-left: 6px;
+    }
+    .report_part {
+    padding-right: 6px;
+    }
+  }
+  .column_2 {
+    width: 40%;
+    float: right;
+  }
+  .section_indoor_inner {
+    margin-top: 0;
+  }
+  .column_video {
+    padding: 16px 8px 0 21px;
+    width: 60%;
+    float: right;
+  }
+  .column_videio_list {
+    width: 40%;
+    float: right;
+  }
+  .podcast {
+  width: 30%;
+  float: right;
+  }
+  .reportـimage {
+  width: 40%;
+  float: right;
+  padding: 0 16px;
+  img {
+    height: 260px;
+  }
+  }
+  .cartoon {
+  width: 30%;
+  float: right;
+  }
+  .social_footer_out {
+    padding-bottom: 8px;  
+  }
+  .back_top {
+    float: right;
+    padding-left: 54px;
+  }
+}
+.nav_footer {
+  width: 80%;
+}
+.logo_aasam {
+  float: right;
+  width: 20%;
+}
+/* end style media(min-width:768px) */ 
+/* start style media(min-width:480x) */ 
+@media screen and (min-width:480px) {
+  .date_header {
+    text-align: left;
+  }
+  .contact_menu {
+    text-align: right;
+    float: right;
+    width: 50%;
+  }
+
+  .social_icon {
+    text-align: left;
+    float: right;
+    width: 50%;
+  }
+  .social_footer {
+    text-align: right;
+    float: right;
+    width: 50%;
+  }
+  .icon_footer {
+    padding-left: 27px;
+    text-align: left;
+    float: right;
+    width: 50%;
+  }
+  .social_footer_out {
+    padding-right: 49px;  
+}
+.main_footer {
+  p {
+    float: left;
+    padding-left: 54px;
+  }
+}
+.nav_footer {
+  float: right;
+  width: 80%;
+}
+.social_footer_out {
+  p {
+    text-align: left;
+  }
+}
+}
+/* end style media(min-width:480px) */ 
